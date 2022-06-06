@@ -1,0 +1,14 @@
+h1 {
+  color: red;
+  background-color: rgb(151, 190, 190);
+}
+h2 {
+  color: green;
+}
+p {
+  color: rgb(143, 190, 125);
+}
+img {
+  width: 250;
+  height: 200;
+}

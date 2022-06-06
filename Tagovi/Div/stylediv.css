@@ -1,0 +1,22 @@
+.card {
+  background-color: aqua;
+  border-radius: 15px;
+  width: 500px;
+  height: 460px;
+  border: 5px rgb(17, 11, 3) solid;
+}
+
+.podnaslov {
+}
+.naslov {
+  color: blueviolet;
+  font-size: 15px;
+}
+.cardText {
+  color: rgb(0, 140, 255);
+  size: 10px;
+}
+.slika {
+  width: 200px;
+  height: 200px;
+}

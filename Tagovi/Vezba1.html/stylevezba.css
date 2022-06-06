@@ -1,0 +1,33 @@
+div {
+float: left;
+height: 350px;
+width: 350px;
+border: 30px rgb(243, 242, 242) solid;
+border-radius: 5px;
+  background-color: rgba(192, 194, 193, 0.952);
+}
+.img {
+  width: 350px;
+  
+}
+.link {
+  color: blue;
+}
+.heading {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text {
+text size: 1px;
+
+}
+.subheading{
+color: rgb(85, 83, 80);
+}
+.otac{ 
+justify-content: center;
+align-items: center
+flex-direction:flex-end ;
+flex-direction:end;
+
+}
