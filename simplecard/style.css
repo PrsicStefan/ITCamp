@@ -1,0 +1,23 @@
+div {
+  padding: 5px;
+  width: 400px;
+  height: 440px;
+  border-radius: 20px;
+  background-color: rgb(54, 103, 129);
+  border: 2px white solid;
+}
+.naslov {
+  font-size: x-large;
+  padding: 15px;
+  color: rgb(226, 221, 221);
+  margin: 10px;
+}
+img {
+  margin-top: 20px;
+  width: 400px;
+  border-radius: 20px;
+}
+p {
+  color: rgb(206, 197, 197);
+  padding-left: 30px;
+}
