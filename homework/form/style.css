@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  margin: 10rem 40rem;
+  width: 80vh;
+  height: 120vh;
+  display: flex;
+
+  flex-direction: column;
+}
+.registracija {
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  height: 40%;
+}
+.input {
+  justify-content: space-between;
+
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(112, 19, 116); */
+}
+.row {
+  display: flex;
+  height: 20%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.left {
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  display: flex;
+  font-size: 12px;
+}
+input {
+  height: 80%;
+}
+.row3elements {
+  height: 80%;
+  width: 40%;
+  display: flex;
+}
+.left1 {
+  flex-direction: column;
+
+  display: flex;
+}
+.left2 {
+  display: flex;
+  flex-direction: column;
+}
+.right1 {
+  height: 80%;
+  width: 40%;
+
+  flex-direction: column;
+}
+.specinput {
+  display: flex;
+  height: 80%;
+  width: 50%;
+}
+.specinput2 {
+  display: flex;
+  height: 80%;
+  width: 100%;
+}
+.sprat {
+  width: 40%;
+}
+.male {
+  height: 100%;
+  display: flex;
+}
+.pol1 {
+  display: flex;
+  height: 80%;
+}
+.checkbox1 {
+  display: flex;
+  height: 3%;
+  margin-left: 2rem;
+}
+.dugmence {
+}
+.tekst {
+  display: flex;
+  align-items: center;
+}
+button {
+  color: aliceblue;
+  background-color: black;
+  width: 40%;
+  height: 100%;
+  border-radius: 10rem;
+}
+.buton {
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  width: 47rem;
+  height: 50px;
+}
+.robot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.robot1 {
+  display: flex;
+}
+img {
+  height: 40px;
+  width: 40px;
+}
