@@ -1,0 +1,104 @@
+body {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  border-radius: 1em;
+
+  height: 500px;
+  width: 1000px;
+  flex-direction: row;
+  justify-content: space-between;
+  /* position: fixed;
+  inset: 0;
+  margin: auto; */
+}
+.feedback {
+  justify-content: center;
+  display: flex;
+
+  flex-direction: column;
+  height: 100%;
+  width: 30%;
+}
+
+.map {
+  display: flex;
+  width: 60%;
+  height: 100%;
+}
+input {
+  margin-bottom: 20px;
+  margin-top: 1px;
+  width: 95%;
+  height: 15%;
+}
+/* button {
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  height: 40px;
+} */
+.forma {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.mesage {
+  display: flex;
+  height: 40%;
+}
+.btn {
+  background: #471ba6;
+  background-image: -webkit-linear-gradient(top, #471ba6, #1d489e);
+  background-image: -moz-linear-gradient(top, #471ba6, #1d489e);
+  background-image: -ms-linear-gradient(top, #471ba6, #1d489e);
+  background-image: -o-linear-gradient(top, #471ba6, #1d489e);
+  background-image: linear-gradient(to bottom, #471ba6, #1d489e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #e8e5e5;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.dugme {
+  height: 16%;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+h5 {
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    width: 500px;
+  }
+  .map {
+    width: 100%;
+  }
+  .feedback {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .dugme {
+  }
+}
