@@ -50,8 +50,8 @@ if (temp > 40) {
   console.log("Melting temp");
 }
 
-// PROFIT
-// const profit = prompt("Input your real profit");
-// const lost = prompt("Input your real lost");
+// PROFIT;
+// const profit = Number(prompt("Input your real profit"));
+// const lost = Number(prompt("Input your real lost"));
 // const suma = profit + lost;
 // console.log("Your profit, suma sumarum is", suma);
