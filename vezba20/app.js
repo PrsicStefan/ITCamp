@@ -104,19 +104,42 @@
 //   console.log("Delitelj broja", i, "su brojevi", broj);
 // }
 
-broj = 52;
+// broj = Number(52);
+
+// unos = Number(prompt("Unesite vas broj"));
+
+// while (unos !== broj) {
+//   if (unos === 0) {
+//     console.log("Ne kucaj 0 konju");
+//     unos = Number(prompt("Unesite vas broj"));
+//     break;
+//   } else if (unos < broj) {
+//     console.log("Broj je manji od tacnog");
+//     unos = Number(prompt("Unesite vas broj"));
+//   } else if (unos > broj) {
+//     console.log("Broj je veci od tacnog");
+//     unos = Number(prompt("Unesite vas broj"));
+//   } else if (broj === unos) {
+//   }
+//   console.log("Pogodili ste broj ");
+// }
+
+//Pogadjanje raspona brojeva od 10-20
 unos = Number(prompt("Unesite vas broj"));
 
-while (unos !== broj) {
-  if (unos === 0) {
-    console.log("Ne kucaj 0 konju");
-    break;
+while (unos !== 0) {
+  if (unos <= 20 && unos >= 10) {
+    console.log(
+      "Pogodak, broj koji ste uneli:",
+      unos,
+      " je u rasponu od 10- 20"
+    );
+  } else if (pom === 0) {
+    console.log("Nemoj unositi 0");
+    unos = Number(prompt("Unesite vas broj"));
+  } else {
+    console.log("Broj koji ste uneli nije u opsegu");
+    unos = Number(prompt("Unesite vas broj"));
   }
-  if (unos < broj) {
-    console.log("Broj je manji od tacnog");
-  } else if (unos > broj) {
-    console.log("Broj je manji od tacnog");
-  } else if (unos === broj) {
-    console.log("Broj je tacan");
-  }
+  break;
 }
