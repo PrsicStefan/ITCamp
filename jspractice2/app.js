@@ -5,7 +5,7 @@
 
 let n = Number(prompt("Unesite broj"));
 let string = "";
-// Upside pyramid
+
 // upside diamond
 for (let i = 1; i <= n; i++) {
   // printing spaces
